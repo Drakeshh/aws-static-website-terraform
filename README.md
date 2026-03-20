@@ -7,7 +7,7 @@
 
 A fully automated, production-ready static website hosted on AWS — provisioned entirely with Terraform and deployed via GitHub Actions on every `git push`.
 
-**Live demo:** [https://your-domain.com](https://your-domain.com)
+**Live demo:** [https://project1.sergipratmerin.com](https://project1.sergipratmerin.com)
 
 ---
 
@@ -191,4 +191,4 @@ MIT — feel free to use this as a starting point for your own projects.
 
 ---
 
-*Built as a portfolio project to demonstrate AWS infrastructure automation with Terraform and CI/CD pipelines.*
+
