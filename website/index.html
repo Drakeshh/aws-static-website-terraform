@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Sergi Prat Merin</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #0f1923;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 700px;
+            padding: 40px;
+            text-align: center;
+        }
+        .badge-aws {
+            display: inline-block;
+            background: #ff9900;
+            color: #0f1923;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 24px;
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 16px;
+            color: #ffffff;
+        }
+        h1 span { color: #ff9900; }
+        p {
+            font-size: 18px;
+            color: #8899a6;
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .tag {
+            background: #1e2d3d;
+            color: #ff9900;
+            border: 1px solid #ff9900;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+        }
+        .btn {
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-size: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.8; }
+        .btn-primary { background: #ff9900; color: #0f1923; }
+        .btn-secondary { background: transparent; color: #ffffff; border: 1px solid #ffffff; }
+        .footer {
+            margin-top: 48px;
+            font-size: 13px;
+            color: #8899a6;
+        }
+        .footer a { color: #ff9900; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge-aws">AWS Cloud Project</span>
+        <h1>Static Website on <span>AWS</span></h1>
+        <p>Fully automated cloud infrastructure provisioned with Terraform
+        and deployed via GitHub Actions CI/CD pipeline.</p>
+        <div class="tags">
+            <span class="tag">S3</span>
+            <span class="tag">CloudFront</span>
+            <span class="tag">Route 53</span>
+            <span class="tag">ACM</span>
+            <span class="tag">IAM</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">GitHub Actions</span>
+        </div>
+        <div class="links">
+            <a href="https://github.com/Drakeshh/aws-static-website-terraform"
+               class="btn btn-primary">View on GitHub</a>
+            <a href="https://sergipratmerin.com"
+               class="btn btn-secondary">My Portfolio</a>
+        </div>
+        <div class="footer">
+            Built by <a href="https://sergipratmerin.com">Sergi Prat Merin</a>
+            · Hosted on AWS · Deployed with Terraform
+        </div>
+    </div>
+</body>
+</html>
