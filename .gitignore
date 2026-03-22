@@ -1,0 +1,16 @@
+# AWS credentials
+*.csv
+
+# Terraform
+*.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
